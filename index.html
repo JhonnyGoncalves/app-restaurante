@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>App Mobile - PhoneGap</title>
+	<link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.5.min.css">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+	<script src="js/Controller.js"></script>
+
+</head>
+<body>
+
+
+	<div data-role="page">
+
+			<div data-role="header" data-theme="b" data-position="fixed">
+				<h1>Aplicativo</h1>
+				<a href="#outside" data-icon="bars" data-iconpos="notext">Menu</a>
+			</div><!-- /header -->
+
+
+			<!-- Busca com js -->
+			<input type="search" name="busca" id="search" value="" placeholder="Busca...">
+            <strong id="quantidade"></strong>
+    
+
+
+			<div role="main" class="ui-content">
+
+			 <ul id="saidaTxt" data-role="listview" data-inset="true">
+			 </ul>
+			 
+
+			 </div><!-- /content -->
+
+			<div data-role="footer">
+				<h4>www.jhinformatica.com.br</h4>
+			</div><!-- /footer -->
+		<div data-role="panel" id="outside" data-theme="b">
+            <ul data-role="listview">
+                <li data-icon="back"><a href="#" data-rel="close">Fechar</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li>Pagina A</li>
+                <li>Pagina B</li>
+                <li>Sobre</li>
+            </ul>
+        </div><!-- /Menu Lateral -->
+	</div><!-- /page -->
+
+</body>
+</html>
