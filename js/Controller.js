@@ -1,8 +1,8 @@
 var json =  
 {
-  0:{link:'#',imagem:'img/apple.png',titulo:'iOS 6.1',descricao:'Apple released iOS 6.1',marca:'iOS'},
-  1:{link:'#',imagem:'img/blackberry_10.png',titulo:'BlackBerry 10',descricao:'BlackBerry launched the Z10 and Q10 with the new BB10 OS',marca:'BlackBerry'},
-  2:{link:'#',imagem:'img/lumia_800.png',titulo:'WP 7.8',descricao:'Nokia rolls out WP 7.8 to Lumia 800',marca:'Windows Phone'},
+  0:{link:'#',imagem:'img/rest.png',titulo:'Carne',descricao:'Carne',marca:'Kilo'},
+  1:{link:'#',imagem:'img/frango.png',titulo:'Frango',descricao:'Frango grelhado',marca:'PF'},
+  2:{link:'#',imagem:'img/suco.jpg',titulo:'Sucos naturais',descricao:'Sucos naturais',marca:'Bebida'},
 };
 
 $(document).ready(function(){
