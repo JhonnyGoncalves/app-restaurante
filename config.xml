@@ -10,11 +10,13 @@
   <name>Cliente Fiel</name>
 
   <description>
-      Aplicativo para o Restaurante Boi na Brasa
+      App para o Restaurante Boi na Brasa
   </description>
 
   <author href="https://www.jhinformatica.com.br" email="jhony@rg.com.br">
       Jhonny Gonçalves Costa
   </author>
+
+   <icon src="icon.png" />
 
 </widget>
